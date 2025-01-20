@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Lab5.Application.Abstractions\Lab5.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\Application\Lab5.Application.Exceptions\Lab5.Application.Exceptions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" />
+    </ItemGroup>
+
+</Project>
